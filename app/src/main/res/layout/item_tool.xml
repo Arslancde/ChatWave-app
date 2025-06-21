@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="horizontal"
+    android:background="#93c2c7"
+    android:gravity="center_vertical">
+
+    <!-- Tool icon -->
+    <ImageView
+        android:id="@+id/toolIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFFFF"
+        android:src="@drawable/ic_conversation_started"
+        app:tint="#4CAF50" />
+
+    <!-- Tool name text -->
+    <TextView
+        android:id="@+id/toolTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tool Name"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Camera Icon -->
+    <item
+        android:id="@+id/menu_camera"
+        android:icon="@drawable/ic_camera"
+        android:title="Camera"
+        app:showAsAction="always" />
+
+    <!-- Search Icon -->
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <!-- These show in the 3-dot More menu only -->
+    <item
+        android:id="@+id/menu_advertise"
+        android:title="Advertise"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_marketing_messages"
+        android:title="Marketing Messages"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_new_group"
+        android:title="New Group"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_new_broadcast"
+        android:title="New Broadcast"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_communities"
+        android:title="Communities"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_labels"
+        android:title="Labels"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_linked_devices"
+        android:title="Linked Devices"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_starred"
+        android:title="Starred"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+</menu>
